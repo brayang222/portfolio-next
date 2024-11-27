@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Footer } from "./components/footer/Footer";
+import { Navbar } from "./components/Navbar/Navbar";
+
+import { Silkscreen } from "next/font/google";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -11,6 +15,11 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
+});
+const silkscreen = Silkscreen({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-silkscreen",
 });
 
 export const metadata: Metadata = {
@@ -26,9 +35,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${silkscreen.variable} font-geistMono  antialiased h-full w-full`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

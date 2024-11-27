@@ -1,0 +1,31 @@
+{
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended", "prettier"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "max-lines": ["error", { "max": 120, "skipBlankLines": false, "skipComments": true }],
+    "no-multi-spaces": "error",
+    "comma-dangle": ["error", "always-multiline"],
+    "no-console": "warn",
+    "prefer-const": "error",
+    "no-var": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "consistent-return": "error",
+    "no-duplicate-imports": "error",
+    "object-shorthand": "error",
+    "prefer-template": "error",
+    "no-useless-concat": "error",
+    "no-trailing-spaces": "error",
+    "semi": ["error", "always"],
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "linebreak-style": ["error", "unix"],
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+    "eol-last": ["error", "always"],
+    "no-lonely-if": "error",
+    "space-before-blocks": "error",
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "prettier/prettier": ["error"]
+  }
+}

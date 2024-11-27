@@ -11,6 +11,16 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "black-custom": "rgb(17,17,17,1)",
+        "footer-color": "rgb(28 28 28)",
+      },
+      textColor: {
+        "white-opacity": "rgb(102,102,102,1)",
+      },
+      fontFamily: {
+        geistMono: "var(--font-geist-mono)",
+        geistSans: "var(--font-geist-sans)",
+        silkscreen: "var(--font-silkscreen)",
       },
     },
   },

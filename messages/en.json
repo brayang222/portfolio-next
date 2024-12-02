@@ -1,0 +1,99 @@
+{
+  "navbar": {
+    "rol": "Web Designer"
+  },
+  "about": {
+    "about": "ABOUT ME",
+    "about-text": "Developer specialized in [Front End/Full Stack] with experience in creating efficient solutions using low-code technologies and custom programming.",
+    "team": "TEAM",
+    "team-details": [
+      {
+        "team-name": "Norvik",
+        "team-time-line": "03.2024 - Present",
+        "description-text": "I have developed and designed various modules and sections for platforms created by the company, working with Next.js, TypeScript, Tailwind, and FlutterFlow to meet the standards of these tools."
+      },
+      {
+        "team-name": "Control IT",
+        "team-time-line": "08.2023 - 08.2024",
+        "description-text": "I worked in this company developing management platforms for its clients, such as profitability calculation per employee and task, invoice management and creation, Linux integration, among others."
+      }
+    ],
+    "description": "DESCRIPTION"
+  },
+  "footer": {
+    "update": "Last updated",
+    "build": "Let's build something together"
+  },
+  "projects": {
+    "estilo-elite": {
+      "description": "Watches Sale",
+      "paragraph": "A family-run startup created by Brayan Vargas and Camilo Vargas, focusing on the sale of high-quality watches and accessories for men. The business aims to provide customers with stylish and affordable products, offering a curated selection of watches and accessories that combine elegance and functionality, perfect for modern men.",
+      "role": "Developer",
+      "duration": "7 days",
+      "images": [
+        "Page header",
+        "Brand filter",
+        "Social zone",
+        "Integrated WhatsApp"
+      ]
+    },
+    "blooma": {
+      "description": "Design platform",
+      "paragraph": "A platform where designers and developers can apply for jobs that pay with platform credits. Users can post their work and earn credits that can be exchanged for various services within the platform. It aims to connect talent with companies in need of creative and technical expertise, offering a secure and innovative way of working on freelance projects.",
+      "role": "Developer",
+      "duration": "9 months",
+      "images": [
+        "Panel",
+        "Storage",
+        "File management",
+        "Organization members",
+        "Service type",
+        "Order detail",
+        "Chat",
+        "Pricing"
+      ]
+    },
+    "hojarasca": {
+      "description": "Restaurant website",
+      "paragraph": "A website designed for a Colombian restaurant, featuring a user-friendly interface for customers to view the menu, order food online, and find restaurant details. It also includes an admin panel for managing orders and updating the menu. The platform enhances the dining experience with vibrant visuals and an easy navigation system, bringing Colombian flavors closer to customers.",
+      "role": "Developer",
+      "duration": "6 months",
+      "images": ["Page header", "Content", "Dishes and cart"]
+    },
+    "nasa": {
+      "description": "Website with NASA photos",
+      "paragraph": "A website that integrates the NASA API to display a new photo from space each day. Users can interact with a calendar to view photos from previous days. The site includes translations for different languages, providing an educational and visually captivating experience for anyone interested in space exploration and astronomy.",
+      "role": "Developer",
+      "duration": "3 days",
+      "images": "Web"
+    },
+    "portfolio": {
+      "description": "Portfolio website",
+      "paragraph": "A simple, functional portfolio built using only HTML, CSS, and JavaScript, featuring a clean and easy-to-navigate design. It is fully responsive, adapting to all devices. The portfolio includes a project section with images and descriptions, and a contact form. Smooth transitions between sections are achieved with JavaScript, providing a fluid and user-friendly experience. Ideal for showcasing basic web development skills without complexity.",
+      "role": "Developer",
+      "duration": "15 days",
+      "images": ["Header", "Projects"]
+    },
+    "todo": {
+      "description": "Task list",
+      "paragraph": "A productivity app that allows users to manage tasks using a simple and intuitive interface. It lets users add, edit, and mark tasks as complete, helping them stay organized. The app supports different types of tasks, offering an easy way to track progress and plan the day efficiently.",
+      "role": "Developer",
+      "duration": "3 days",
+      "images": "Web"
+    },
+    "triki": {
+      "description": "Tic-tac-toe game",
+      "paragraph": "A simple Tic-Tac-Toe game where players aim to align three of their objects in a row to win. It features an interactive board, and the game logic ensures a smooth and enjoyable experience. Players can challenge each other in this timeless game of strategy.",
+      "role": "Developer",
+      "duration": "1 week",
+      "images": "Web"
+    },
+    "white-car": {
+      "description": "Transportation company",
+      "paragraph": "At Whitecar, our mission is to provide safe, reliable, and efficient ground transportation for all our clients. We strive to be industry leaders, offering innovative solutions that exceed expectations and contribute to the well-being of our community.",
+      "role": "Developer",
+      "duration": "5 months",
+      "images": ["Header", "Panel"]
+    }
+  }
+}

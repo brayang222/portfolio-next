@@ -1,0 +1,99 @@
+{
+  "navbar": {
+    "rol": "Diseñador web"
+  },
+  "about": {
+    "about": "SOBRE MÍ",
+    "about-text": "Desarrollador especializado en [Front End/Full Stack] con experiencia en la creación de soluciones eficientes utilizando tecnologías de low-code y programación personalizada.",
+    "team": "EQUIPO",
+    "team-details": [
+      {
+        "team-name": "Norvik",
+        "team-time-line": "03.2024 - Presente",
+        "description-text": "He desarrollado y diseñado diversos módulos y secciones para plataformas que la empresa ha creado, he trabajado con Next JS, TypeScript, Tailwind, FlutterFlow para alcanzar los estandares de estas herramientas"
+      },
+      {
+        "team-name": "Control IT",
+        "team-time-line": "08.2023 - 08.2024",
+        "description-text": "Trabajé en esta empresa desarrollando plataformas de gestión para sus clientes, tales como cálculo de rentabilidad por colaborador y por trabajo desarrollado, gestión y creación de facturas, integración con Linux, entre otros"
+      }
+    ],
+    "description": "DESCRIPCION"
+  },
+  "footer": {
+    "update": "Última actualización",
+    "build": "Vamos a constuir algo juntos"
+  },
+  "projects": {
+    "estilo-elite": {
+      "description": "Venta de relojes",
+      "paragraph": "Este emprendimiento nace de la pasión por los detalles y la elegancia masculina. Especializado en la venta de relojes y accesorios premium, ofrece una experiencia única al cliente, combinando calidad y estilo. Desde relojes clásicos hasta diseños modernos, cada pieza está cuidadosamente seleccionada para complementar el estilo de vida del hombre contemporáneo. Además, la marca incluye una línea de accesorios como pulseras, gemelos y collares, elaborados con materiales de alta calidad. Este negocio no solo busca vender productos, sino también inspirar a los hombres a expresar su personalidad a través de pequeños detalles que marcan la diferencia. Con una atención al cliente excepcional y envíos rápidos, es una marca que promete redefinir el concepto de elegancia y accesibilidad.",
+      "role": "Desarrollador",
+      "duration": "7 días",
+      "images": [
+        "Encabezado de la página",
+        "Filtrado por marca",
+        "Zona social",
+        "WhatsApp integrado"
+      ]
+    },
+    "blooma": {
+      "description": "Plataforma de diseño",
+      "paragraph": "Imagina una plataforma diseñada específicamente para creativos y técnicos. Este espacio digital conecta diseñadores y desarrolladores con empresas que buscan talento especializado. Los usuarios pueden explorar una amplia variedad de proyectos freelance, desde diseño gráfico hasta desarrollo web, y postularse a trabajos que se pagan con un sistema de créditos exclusivo de la plataforma. Estos créditos pueden ser utilizados para acceder a herramientas premium, cursos de capacitación o incluso ser canjeados por dinero. Además, la plataforma fomenta la colaboración y el aprendizaje con foros de discusión, talleres virtuales y espacios para compartir portafolios. Es una comunidad donde los profesionales no solo encuentran empleo, sino también oportunidades para crecer y perfeccionar sus habilidades en un entorno dinámico y colaborativo.",
+      "role": "Desarrollador",
+      "duration": "9 meses",
+      "images": [
+        "Pánel",
+        "Almacenamiento",
+        "Gestión de archivos",
+        "Miembros de la organización",
+        "Tipo de servicio",
+        "Detalle de órden",
+        "Chat",
+        "Precios"
+      ]
+    },
+    "hojarasca": {
+      "description": "Web para restaurante",
+      "paragraph": "Este restaurante es una ventana al corazón de Colombia. Con un ambiente acogedor y auténtico, ofrece una experiencia gastronómica única que celebra la rica diversidad de sabores colombianos. Desde arepas y empanadas hasta bandeja paisa y sancocho, cada plato es una explosión de tradición y pasión. Más allá de su deliciosa comida, el restaurante cuenta con una plataforma digital donde los usuarios pueden explorar el menú, realizar pedidos a domicilio y gestionar reservaciones. También ofrece una sección especial para administradores donde pueden manejar inventarios, registrar órdenes y optimizar el servicio al cliente. Este restaurante no solo alimenta el cuerpo, sino también el alma, conectando a sus visitantes con las raíces y la cultura de Colombia en cada bocado.",
+      "role": "Desarrollador",
+      "duration": "6 meses",
+      "images": ["Encabezado de la página", "Contenido", "Platillos y carrito"]
+    },
+    "nasa": {
+      "description": "Web con fotos NASA",
+      "paragraph": "Explora el universo desde la comodidad de tu hogar con esta innovadora web que utiliza la API de la NASA. Cada día, la página muestra una imagen asombrosa del espacio, acompañada de información detallada sobre planetas, estrellas, y fenómenos cósmicos. Lo más impresionante es su integración con un calendario interactivo que permite a los usuarios retroceder en el tiempo para explorar imágenes y datos astronómicos de días pasados. Con traducciones en múltiples idiomas, esta plataforma busca inspirar a curiosos y aficionados a la astronomía de todo el mundo. Además, incluye secciones educativas para aprender sobre los descubrimientos más recientes y cómo la tecnología de la NASA está explorando los confines del universo.",
+      "role": "Desarrollador",
+      "duration": "3 dias",
+      "images": "Web"
+    },
+    "portfolio": {
+      "description": "Web para restaurante",
+      "paragraph": "Este portafolio sencillo y funcional está construido con solo HTML, CSS y JavaScript, destacando una presentación limpia y fácil de navegar. Es completamente responsive, adaptándose a todos los dispositivos. Incluye una sección de proyectos con imágenes y descripciones, y un formulario de contacto. A través de JavaScript, las transiciones entre secciones son suaves, ofreciendo una experiencia de usuario fluida y eficiente. Ideal para mostrar habilidades básicas de desarrollo web sin complejidades.",
+      "role": "Desarrollador",
+      "duration": "15 dias",
+      "images": ["Encabezado", "Proyectos"]
+    },
+    "todo": {
+      "description": "Lista de tareas",
+      "paragraph": "Organiza tu vida de manera simple y efectiva con esta aplicación To-Do. Diseñada para mantenerte al día con tus tareas y objetivos, esta herramienta te permite crear, editar y priorizar listas de actividades con facilidad. Cada tarea puede ser categorizada, asignada a un plazo específico y marcada como completada con un solo clic. La interfaz minimalista asegura una experiencia libre de distracciones, mientras que las notificaciones personalizables garantizan que nunca olvides un plazo importante. Ideal tanto para uso personal como profesional, la aplicación también incluye integración con calendarios y herramientas de productividad como Google Calendar y Trello. Ya sea que necesites organizar tu día a día o planificar grandes proyectos, esta app es el asistente perfecto para mantener el control y alcanzar tus metas.",
+      "role": "Desarrollador",
+      "duration": "3 dias",
+      "images": "Web"
+    },
+    "triki": {
+      "description": "Juego de triki",
+      "paragraph": "Revive la emoción de uno de los juegos clásicos más queridos con esta versión digital del Triki (también conocido como Tic-Tac-Toe). Este juego combina simplicidad y estrategia, ideal para todas las edades. Diseñado con una interfaz limpia y moderna, ofrece modos de juego para un solo jugador contra la IA o partidas entre dos jugadores en el mismo dispositivo. Además, incluye funciones únicas como estadísticas de victorias y empates, y diferentes niveles de dificultad para desafiar incluso a los jugadores más experimentados. Con gráficos atractivos y sonidos envolventes, esta versión digital del Triki promete horas de entretenimiento mientras pruebas tus habilidades estratégicas en cada partida.",
+      "role": "Desarrollador",
+      "duration": "1 semana",
+      "images": "Web"
+    },
+    "white-car": {
+      "description": "Compañía de transporte",
+      "paragraph": "En Whitecar, nuestra misión es proporcionar un transporte terrestre seguro, confiable y eficiente para todos nuestros clientes. Nos esforzamos por ser líderes en la industria, ofreciendo soluciones innovadoras que superen las expectativas y contribuyan al bienestar de nuestra comunidad.",
+      "role": "Desarrollador",
+      "duration": "5 meses",
+      "images": ["Encabezado", "Pánel"]
+    }
+  }
+}

@@ -6,13 +6,16 @@ export const About = () => {
   const t = useTranslations("about");
 
   return ABOUT.map((item) => (
-    <section className="flex flex-col text-sm justify-between bg-black-custom text-white lg:px-12 px-4 mt-12 py-8 md:flex-row md:text-base text-start">
+    <section
+      className="flex flex-col text-sm justify-between bg-black-custom text-white lg:px-12 px-4 mt-12 py-8 md:flex-row md:text-base text-start"
+      key={item.team}
+    >
       <aside className="flex flex-col gap-4">
         <p className="text-white-opacity text-xs">{t(item.about)}</p>
         <p className="max-w-[50ch]">{t(item.aboutText)}</p>
       </aside>
       <aside className="flex flex-col mt-4 md:w-[700px]">
-        <div className="flex flex-col md:columns-2 gap-4" key={item.team}>
+        <div className="flex flex-col md:columns-2 gap-4">
           <div className="flex columns-2 gap-4">
             <h3 className="text-white-opacity text-xs min-w-60">
               {t(item.team)}
@@ -22,7 +25,7 @@ export const About = () => {
             </h3>
           </div>
           {item.teamDetails.map((team, index) => (
-            <div className="flex columns-2 gap-4">
+            <div className="flex columns-2 gap-4" key={team.id}>
               <p className="w-full md:min-w-60">
                 {t(`team-details.${index}.${team.teamName}`)}
                 <br />

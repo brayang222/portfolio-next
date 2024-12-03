@@ -9,8 +9,8 @@ export const PROJECTS = [
     collaborators: ["Brayan Vargas"],
     duration: "estilo-elite.duration",
     tools: ["React", "Tailwind"],
-    website: "",
-    code: "",
+    website: "https://estiloelite.netlify.app/",
+    code: "https://github.com/brayang222/EstiloEliteReact.git",
     images: [
       { img: "/assets/ee/header.webp", text: "estilo-elite.images" },
       { img: "/assets/ee/filter.webp", text: "estilo-elite.images" },
@@ -60,7 +60,7 @@ export const PROJECTS = [
     duration: "hojarasca.duration",
     tools: ["PHP", "JavaScript", "MySql", "HTML", "CSS", "Bootstrap"],
     website: "",
-    code: "https://github.com/brayang222/Portfolio",
+    code: "https://github.com/brayang222/restaurant-hojarasca.git",
     images: [
       { img: "/assets/rh/header.webp", text: "hojarasca.images" },
       { img: "/assets/rh/content.webp", text: "hojarasca.images" },
@@ -159,7 +159,7 @@ export const PROJECTS = [
       "Firebase",
       "Google routes, matrix API",
     ],
-    website: "https://app-qa.blooma.io/es/employee/my-wallet",
+    website: "https://whitecar.com.co/",
     code: "",
     images: [
       { img: "/assets/white-car/header-app.webp", text: "white-car.images" },

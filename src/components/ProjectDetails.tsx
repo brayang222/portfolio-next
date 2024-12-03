@@ -1,17 +1,15 @@
+"use client";
+import React from "react";
 import { Link } from "@/i18n/routing";
-import { CustomImage } from "./CustomImage";
 import { PROJECTS } from "@/constants/projects";
 import { useTranslations } from "next-intl";
+import { toast } from "sonner";
+import { CustomImage } from "./CustomImage";
 
-interface Params {
-  lang: string;
-  project: string;
-}
-
-export const ProjectDetails = async ({ projectPath }: { projectPath: any }) => {
+export const ProjectDetails = ({ projectPath }: { projectPath: string }) => {
   const project = PROJECTS.find((p) => p.path === projectPath);
   if (!project) {
-    throw new Error("Project not found");
+    toast.error("No se encuentra el proyecto");
   }
   const t = useTranslations("projects");
   return (

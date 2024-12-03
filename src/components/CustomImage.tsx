@@ -1,7 +1,12 @@
 import Image from "next/image";
 import React from "react";
 
-export const CustomImage = ({ src, alt }: { src: string; alt: string }) => {
+interface Props {
+  src: string;
+  alt: string;
+}
+
+export const CustomImage = ({ src, alt }: Props) => {
   return (
     <Image
       src={src}

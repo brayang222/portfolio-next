@@ -1,4 +1,6 @@
-export const PROJECTS = [
+import { Project } from "@/types/Projects";
+
+export const PROJECTS: Project[] = [
   {
     imagePath: "/assets/ee/header.webp",
     path: `estilo-elite`,

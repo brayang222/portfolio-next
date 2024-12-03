@@ -7,12 +7,14 @@ import { useEffect } from "react";
 
 export default function Template({ children }: { children: React.ReactNode }) {
   const path = usePathname();
-  const pathSlice = path.split("/");
 
+  const pathSlice = path.split("/");
   const project = PROJECTS.find((p) => p.path === pathSlice[2]);
+
   useEffect(() => {
     animatePageIn();
   }, []);
+
   return (
     <section className="flex text-center items-center justify-center">
       <div

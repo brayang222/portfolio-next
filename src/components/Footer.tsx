@@ -1,10 +1,11 @@
 "use client";
+
 import Link from "next/link";
-import React from "react";
-import { useTranslations } from "use-intl";
+import { useTranslations } from "next-intl";
 
 export const Footer = () => {
   const t = useTranslations("footer");
+
   return (
     <footer
       className="flex relative h-[250px] bg-footer-color text-white w-full"

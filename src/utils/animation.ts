@@ -2,7 +2,6 @@ import gsap from "gsap";
 
 export const animatePageIn = () => {
   const banner = document.getElementById("curved-banner");
-  const text = document.getElementById("banner-text");
 
   if (banner) {
     const tl = gsap.timeline();

@@ -1,22 +1,19 @@
 import { Link } from "@/i18n/routing";
-import { CustomImage } from "../../../components/CustomImage";
+import { CustomImage } from "./CustomImage";
 import { PROJECTS } from "@/constants/projects";
 import { useTranslations } from "next-intl";
 
-type Params = Promise<{
+interface Params {
   lang: string;
   project: string;
-}>;
+}
 
-const ProjectsDetails = async ({ params }: { params: Params }) => {
-  const { lang, project: projectPath } = await params;
-
+export const ProjectDetails = async ({ projectPath }: { projectPath: any }) => {
   const project = PROJECTS.find((p) => p.path === projectPath);
   if (!project) {
     throw new Error("Project not found");
   }
   const t = useTranslations("projects");
-
   return (
     <main className="mt-12 bg-black-custom text-white py-8 lg:px-12 md:px-4 flex flex-col w-full h-full">
       <CustomImage src={project!.images[0].img} alt={project!.description} />
@@ -104,5 +101,3 @@ const ProjectsDetails = async ({ params }: { params: Params }) => {
     </main>
   );
 };
-
-export default ProjectsDetails;

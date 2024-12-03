@@ -1,0 +1,21 @@
+.curve svg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.curve .background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: black; /* Asegúrate de que el color de fondo sea evidente */
+  opacity: 1;
+  transition: opacity 0.75s ease; /* Animación en la opacidad */
+}

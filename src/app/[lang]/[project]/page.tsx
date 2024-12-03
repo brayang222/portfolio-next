@@ -19,7 +19,7 @@ const ProjectsDetails = ({
   return (
     <main className="mt-12 bg-black-custom text-white py-8 lg:px-12 md:px-4 flex flex-col w-full h-full">
       <CustomImage src={project!.images[0].img} alt={project!.description} />
-      <section className="mt-10 flex flex-col md:flex-row 2xl:gap-64 md:gap-32 gap-12 px-8 md:px-0">
+      <section className="mt-10 flex flex-col md:flex-row 2xl:gap-64 md:gap-32 gap-12 px-8 md:px-0 text-start">
         <aside className=" md:sticky top-20 h-fit flex-shrink-0">
           <h3 className="font-silkscreen text-5xl">{project?.name}</h3>
           <p className="text-white-opacity text-xs">

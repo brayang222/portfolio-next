@@ -6,7 +6,7 @@ export const About = () => {
   const t = useTranslations("about");
 
   return ABOUT.map((item) => (
-    <section className="flex flex-col text-sm justify-between bg-black-custom text-white lg:px-12 px-4 mt-12 py-8 md:flex-row md:text-base ">
+    <section className="flex flex-col text-sm justify-between bg-black-custom text-white lg:px-12 px-4 mt-12 py-8 md:flex-row md:text-base text-start">
       <aside className="flex flex-col gap-4">
         <p className="text-white-opacity text-xs">{t(item.about)}</p>
         <p className="max-w-[50ch]">{t(item.aboutText)}</p>

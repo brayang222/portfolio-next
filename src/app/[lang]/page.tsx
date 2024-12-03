@@ -1,6 +1,10 @@
 import { Body } from "@/components/Body";
-import { NextIntlClientProvider } from "next-intl";
+import { AnimatePresence } from "framer-motion";
 
-export default function Home() {
-  return <Body />;
+export default function Home(router: any) {
+  return (
+    <AnimatePresence mode="wait">
+      <Body key={router.route} />
+    </AnimatePresence>
+  );
 }

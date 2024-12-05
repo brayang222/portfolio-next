@@ -1,6 +1,6 @@
 "use server";
 
-import { ProjectDetails } from "@/components/ProjectDetails";
+import { ProjectView } from "@/components/Project/ProjectView";
 
 type Params = Promise<{
   project: string;
@@ -9,7 +9,7 @@ type Params = Promise<{
 const Page = async ({ params }: { params: Params }) => {
   const { project: projectPath } = await params;
 
-  return <ProjectDetails projectPath={projectPath} />;
+  return <ProjectView projectPath={projectPath} />;
 };
 
 export default Page;

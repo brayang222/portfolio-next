@@ -1,14 +1,30 @@
+"use client";
 import { PROJECTS } from "@/constants/projects";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { About } from "./About";
+import { useEffect, useState } from "react";
 
 export const Body = () => {
   const t = useTranslations("projects");
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 1024);
+    };
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    <main className="flex flex-col w-full h-full bg-black-custom">
+    <main className="flex flex-col w-full h-full bg-black-custom ">
       <About />
-      <section className="w-full max-w-full py-5 px-24 pb-10 gap-8 lg:columns-2 xl:columns-3 min-h-svh ">
+      <section className="w-full py-5 px-24 pb-10 gap-8 lg:columns-2 xl:columns-3 min-h-svh ">
         {PROJECTS.map((project) => (
           <figure
             className="flex flex-col font-geistSans text-sm h-full mb-8 gap-0.5 break-inside-avoid"
@@ -17,12 +33,12 @@ export const Body = () => {
             <Link href={`/${project.path}`} className="flex justify-center">
               <img
                 className="cursor-pointer object-cover max-h-[800px] "
-                src={project.imagePath}
+                src={isMobile ? project.images[0].img : project.imagePath}
                 alt={t(project.description)}
               />
             </Link>
             <figcaption>
-              <h3 className="text-white">{project.name}</h3>
+              <h3 className="text-white">{t(project.name).toUpperCase()}</h3>
               <p className="text-white-opacity">{t(project.description)}</p>
             </figcaption>
           </figure>

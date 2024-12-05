@@ -3,8 +3,8 @@ import { Project } from "@/types/Projects";
 export const PROJECTS: Project[] = [
   {
     imagePath: "/assets/ee/header.webp",
-    path: `estilo-elite`,
-    name: "ESTILO ÉLITE",
+    path: "estilo-elite",
+    name: "estilo-elite.name",
     description: "estilo-elite.description",
     paragraph: "estilo-elite.paragraph",
     role: "estilo-elite.role",
@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
   {
     imagePath: "/assets/blooma/blooma-phone.webp",
     path: "blooma",
-    name: "BLOOMA",
+    name: "blooma.name",
     description: "blooma.description",
     paragraph: "blooma.paragraph",
     role: "blooma.role",
@@ -54,7 +54,7 @@ export const PROJECTS: Project[] = [
   {
     imagePath: "/assets/rh/header.webp",
     path: "hojarasca",
-    name: "HOJARASCA",
+    name: "hojarasca.name",
     description: "hojarasca.description",
     paragraph: "hojarasca.paragraph",
     role: "hojarasca.role",
@@ -73,7 +73,7 @@ export const PROJECTS: Project[] = [
   {
     imagePath: "/assets/nasa.webp",
     path: "nasa-date",
-    name: "NASA DATE",
+    name: "nasa.name",
     description: "nasa.description",
     paragraph: "nasa.paragraph",
     role: "nasa.role",
@@ -87,7 +87,7 @@ export const PROJECTS: Project[] = [
   {
     imagePath: "/assets/plain-portfolio/header-portfolio.webp",
     path: "portfolio",
-    name: "PORTFOLIO",
+    name: "portfolio.name",
     description: "portfolio.description",
     paragraph: "portfolio.paragraph",
     role: "portfolio.role",
@@ -110,7 +110,7 @@ export const PROJECTS: Project[] = [
   {
     imagePath: "/assets/todo.webp",
     path: "todo",
-    name: "TODO APP",
+    name: "todo.name",
     description: "todo.description",
     paragraph: "todo.paragraph",
     role: "todo.role",
@@ -129,7 +129,7 @@ export const PROJECTS: Project[] = [
   {
     imagePath: "/assets/triki.webp",
     path: "triki",
-    name: "TRIKI GAME",
+    name: "triki.name",
     description: "triki.description",
     paragraph: "triki.paragraph",
     role: "triki.role",
@@ -148,7 +148,7 @@ export const PROJECTS: Project[] = [
   {
     imagePath: "/assets/white-car/login.webp",
     path: "white-car",
-    name: "WHITE CAR",
+    name: "white-car.name",
     description: "white-car.description",
     paragraph: "white-car.paragraph",
     role: "white-car.role",

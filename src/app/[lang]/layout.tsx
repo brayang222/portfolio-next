@@ -10,6 +10,7 @@ import "../globals.css";
 
 import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
+import { NextUIProvider } from "@nextui-org/system";
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",
@@ -50,11 +51,13 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${silkscreen.variable} font-geistMono  antialiased h-full w-full`}
       >
         <Toaster richColors></Toaster>
-        <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          {children}
-          <Footer />
-        </NextIntlClientProvider>
+        <NextUIProvider>
+          <NextIntlClientProvider messages={messages}>
+            <Navbar />
+            {children}
+            <Footer />
+          </NextIntlClientProvider>
+        </NextUIProvider>
       </body>
     </html>
   );

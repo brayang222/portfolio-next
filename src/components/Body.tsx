@@ -4,6 +4,7 @@ import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { About } from "./About";
 import { useEffect, useState } from "react";
+import { Image } from "@nextui-org/image";
 
 export const Body = () => {
   const t = useTranslations("projects");
@@ -31,10 +32,11 @@ export const Body = () => {
             key={project.path}
           >
             <Link href={`/${project.path}`} className="flex justify-center">
-              <img
-                className="cursor-pointer object-cover max-h-[800px] "
+              <Image
+                className="cursor-pointer object-cover max-h-[800px]"
                 src={isMobile ? project.images[0].img : project.imagePath}
                 alt={t(project.description)}
+                isZoomed
               />
             </Link>
             <figcaption>

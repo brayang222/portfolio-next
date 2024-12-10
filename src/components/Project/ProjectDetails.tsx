@@ -8,7 +8,7 @@ export const ProjectDetails = ({ project }: { project: Project }) => {
   const t = useTranslations("projects");
 
   return (
-    <main className="mt-12 bg-black-custom text-white py-8 lg:px-12 md:px-4 flex flex-col w-full h-full">
+    <main className="*:mt-12 bg-black-custom text-white py-8 lg:px-12 md:px-4 flex flex-col w-full h-full">
       <CustomImage src={project?.images[0].img} alt={project?.description} />
       <section className="mt-10 flex flex-col md:flex-row 2xl:gap-64 md:gap-32 gap-12 px-8 md:px-0 text-start">
         <aside className=" md:sticky top-20 h-fit flex-shrink-0">

@@ -26,11 +26,9 @@ export default function Template({ children }: { children: React.ReactNode }) {
       >
         <h1
           id="banner-text"
-          className="text-white text-2xl font-extrabold z-30 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+          className="text-white text-5xl font-extrabold z-30 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase tracking-widest"
         >
-          {project
-            ? t(project.name).toUpperCase()
-            : tPortfolio("title").toUpperCase()}
+          {project ? t(project.name) : tPortfolio("title")}
         </h1>
       </div>
       {children}

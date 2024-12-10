@@ -13,7 +13,7 @@ export const ProjectView = ({ projectPath }: { projectPath: string }) => {
   return (
     <>
       {!project ? (
-        <div className="mt-12 bg-black-custom text-white py-8 lg:px-12 md:px-4 flex items-center justify-center w-full h-screen">
+        <div className="*:mt-12 bg-black-custom text-white py-8 lg:px-12 md:px-4 flex items-center justify-center w-full h-screen">
           <Link href={"/"} className="rounded border-white">
             Volver
           </Link>

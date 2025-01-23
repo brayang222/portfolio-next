@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/https://brayangmz.vercel.app/",
+      "source": "https://brayangmz.vercel.app",
       "destination": "https://www.brayangomez.xyz",
       "permanent": true
     }

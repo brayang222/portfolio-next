@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://www.brayangomez.xyz",
+      "permanent": true
+    }
+  ]
+}

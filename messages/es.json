@@ -58,6 +58,32 @@
         "Precios"
       ]
     },
+    "abc": {
+      "name": "ABC CINEMATOGRAFÍA",
+      "description": "Plataforma para buscar películas",
+      "paragraph": "Una plataforma para buscar películas te permite descubrir fácilmente títulos de todos los géneros, explorar reseñas y obtener detalles sobre el elenco, la sinopsis y la disponibilidad en diferentes servicios de streaming. Con una interfaz intuitiva y filtros avanzados, puedes encontrar la película perfecta según tu estado de ánimo, preferencias o popularidad. Además, algunas plataformas ofrecen recomendaciones personalizadas basadas en tus gustos y un historial de búsqueda para mejorar tu experiencia cinematográfica. ¡Encuentra tu próxima película favorita en segundos! 🎬🍿",
+      "role": "Desarrollador",
+      "duration": "3 días",
+      "images": [
+        "Encabezado de la página",
+        "Detalle de la película, fecha de creación, géneros, descripción, compañías involucradas y tráiler",
+        "Sección de likes",
+        "Filtrado por título"
+      ]
+    },
+    "proveo": {
+      "name": "proveo",
+      "description": "Plataforma de dropship",
+      "paragraph": "Una plataforma de dropshipping es una solución ideal para emprendedores que desean vender productos en línea sin preocuparse por el almacenamiento o el envío. Conectando a vendedores con proveedores, esta herramienta automatiza la gestión de pedidos, permitiendo que los productos se envíen directamente desde el proveedor al cliente final. Esto reduce costos operativos y facilita la creación de un negocio escalable. Además, muchas plataformas incluyen integraciones con tiendas en línea, análisis de ventas y herramientas de marketing para maximizar el éxito del comercio electrónico. 🚀💼",
+      "role": "Desarrollador",
+      "duration": "2 semanas",
+      "images": [
+        "Productos recomendados, página principal",
+        "Redes sociales, vídeos y testimonios",
+        "Carrito de compra",
+        "Filtrado por categoría, precio, color, etc"
+      ]
+    },
     "hojarasca": {
       "name": "hojarasca",
       "description": "Web para restaurante",

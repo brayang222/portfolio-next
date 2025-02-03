@@ -58,6 +58,32 @@
         "Pricing"
       ]
     },
+    "abc": {
+      "name": "ABC CINEMATOGRAPHY",
+      "description": "Platform for searching movies",
+      "paragraph": "A platform for searching movies allows you to easily discover titles from all genres, explore reviews, and get details about the cast, synopsis, and availability across different streaming services. With an intuitive interface and advanced filters, you can find the perfect movie based on your mood, preferences, or popularity. Additionally, some platforms offer personalized recommendations based on your tastes and search history to enhance your cinematic experience. Find your next favorite movie in seconds! 🎬🍿",
+      "role": "Developer",
+      "duration": "3 days",
+      "images": [
+        "Page header",
+        "Movie details, creation date, genres, description, involved companies, and trailer",
+        "Likes section",
+        "Filter by title"
+      ]
+    },
+    "proveo": {
+      "name": "Proveo",
+      "description": "Dropshipping platform",
+      "paragraph": "A dropshipping platform is an ideal solution for entrepreneurs who want to sell products online without worrying about storage or shipping. By connecting sellers with suppliers, this tool automates order management, allowing products to be shipped directly from the supplier to the end customer. This reduces operational costs and makes it easier to build a scalable business. Additionally, many platforms include integrations with online stores, sales analytics, and marketing tools to maximize e-commerce success. 🚀💼",
+      "role": "Developer",
+      "duration": "2 weeks",
+      "images": [
+        "Recommended products, main page",
+        "Social media, videos, and testimonials",
+        "Shopping cart",
+        "Filter by category, price, color, etc."
+      ]
+    },
     "hojarasca": {
       "name": "hojarasca",
       "description": "Restaurant website",

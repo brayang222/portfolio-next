@@ -14,7 +14,7 @@ export const CustomImage = ({ src, alt }: Props) => {
       layout="responsive"
       width={90}
       height={50}
-      className="object-contain"
+      className="object-contain max-h-screen"
     />
   );
 };

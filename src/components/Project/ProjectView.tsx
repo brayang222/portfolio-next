@@ -7,9 +7,11 @@ import { ProjectDetails } from "./ProjectDetails";
 
 export const ProjectView = ({ projectPath }: { projectPath: string }) => {
   const project = PROJECTS.find((p) => p.path === projectPath);
+
   if (!project) {
     toast.error("No se encuentra el proyecto");
   }
+
   return (
     <>
       {!project ? (
@@ -19,7 +21,9 @@ export const ProjectView = ({ projectPath }: { projectPath: string }) => {
           </Link>
         </div>
       ) : (
-        <ProjectDetails project={project} />
+        <>
+          <ProjectDetails project={project} />
+        </>
       )}
     </>
   );

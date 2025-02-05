@@ -6,6 +6,7 @@ import { ProjectInfo } from "./ProjectInfo";
 
 export const ProjectDetails = ({ project }: { project: Project }) => {
   const t = useTranslations("projects");
+  const d = useTranslations("detail");
 
   return (
     <main className="*:mt-12 bg-black-custom text-white py-8 lg:px-12 md:px-4 flex flex-col w-full h-full">
@@ -28,7 +29,7 @@ export const ProjectDetails = ({ project }: { project: Project }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                MAIN WEBSITE
+                {d('web')}
               </Link>
             ) : null}
             {project?.code !== "" ? (
@@ -38,7 +39,7 @@ export const ProjectDetails = ({ project }: { project: Project }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                CODE
+                {d('code')}
               </Link>
             ) : null}
           </section>

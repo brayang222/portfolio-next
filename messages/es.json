@@ -5,6 +5,10 @@
   "navbar": {
     "rol": "Diseñador web"
   },
+  "detail": {
+    "web": "SITIO WEB PRINCIPAL",
+    "code": "CÓDIGO"
+  },
   "about": {
     "about": "SOBRE MÍ",
     "about-text": "Desarrollador especializado en [Front End/Full Stack] con experiencia en la creación de soluciones eficientes utilizando tecnologías de low-code y programación personalizada.",
@@ -130,7 +134,14 @@
       "paragraph": "En Whitecar, nuestra misión es proporcionar un transporte terrestre seguro, confiable y eficiente para todos nuestros clientes. Nos esforzamos por ser líderes en la industria, ofreciendo soluciones innovadoras que superen las expectativas y contribuyan al bienestar de nuestra comunidad.",
       "role": "Desarrollador",
       "duration": "5 meses",
-      "images": ["Encabezado", "Pánel"]
+      "images": [
+        "Encabezado de la página",
+        "Pánel de la app",
+        "Oferta de vehículos dispónibles",
+        "Viaja con tú mascota de forma segura, o envíala a otro lugar que nosotros la acompañamos",
+        "Login de la app",
+        "Pagos seguros con mercadopago"
+      ]
     }
   }
 }

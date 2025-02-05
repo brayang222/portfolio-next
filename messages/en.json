@@ -5,6 +5,10 @@
   "navbar": {
     "rol": "Web Designer"
   },
+  "detail": {
+    "web": "MAIN WEBSITE",
+    "code": "CODE"
+  },
   "about": {
     "about": "ABOUT ME",
     "about-text": "Developer specialized in [Front End/Full Stack] with experience in creating efficient solutions using low-code technologies and custom programming.",
@@ -130,7 +134,14 @@
       "paragraph": "At Whitecar, our mission is to provide safe, reliable, and efficient ground transportation for all our clients. We strive to be industry leaders, offering innovative solutions that exceed expectations and contribute to the well-being of our community.",
       "role": "Developer",
       "duration": "5 months",
-      "images": ["Header", "Panel"]
+      "images": [
+        "Page header",
+        "App panel",
+        "Available vehicle offers",
+        "Travel safely with your pet, or send it elsewhere—we’ll accompany it",
+        "App login",
+        "Secure payments with MercadoPago"
+      ]
     }
   }
 }

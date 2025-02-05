@@ -11,5 +11,5 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "CodeGPT.apiKey": "Ollama"
+  "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }

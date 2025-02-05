@@ -30,7 +30,7 @@ export const PROJECTS: Project[] = [
     collaborators: ["Brayan Gómez"],
     duration: "abc.duration",
     tools: ["Next JS", "TypeScript", "Tailwind", "Zustand"],
-    website: "https://abc-cinematography.vercel.app/t",
+    website: "https://abc-cinematography.vercel.app",
     code: "https://github.com/brayang222/abc-cinematography.git",
     images: [
       { img: "/assets/abc/header.webp", text: "abc.images" },
@@ -190,8 +190,12 @@ export const PROJECTS: Project[] = [
     website: "https://whitecar.com.co/",
     code: "",
     images: [
+      { img: "/assets/white-car/header.webp", text: "white-car.images" },
       { img: "/assets/white-car/header-app.webp", text: "white-car.images" },
-      { img: "/assets/white-car/header-app.webp", text: "white-car.images" },
+      { img: "/assets/white-car/offer.webp", text: "white-car.images" },
+      { img: "/assets/white-car/pet-trip.webp", text: "white-car.images" },
+      { img: "/assets/white-car/login.webp", text: "white-car.images" },
+      { img: "/assets/white-car/card-pay.webp", text: "white-car.images" },
     ],
   },
   {

@@ -29,8 +29,35 @@ const silkscreen = Silkscreen({
 });
 
 export const metadata: Metadata = {
-  title: "Portafolio",
-  description: "Portafolio Brayan Vargas",
+  title: "Brayan Vargas | Desarrollador Web",
+  description: "Portafolio de Brayan Vargas, desarrollador web especializado en la digitalización de negocios mediante páginas web modernas y eficientes.",
+  keywords: ["desarrollador web", "páginas web", "digitalización de negocios", "desarrollo web", "Brayan Vargas"],
+  authors: [{ name: "Brayan Vargas", url: "https://brayangomez.xyz" }],
+  openGraph: {
+    title: "Brayan Vargas | Desarrollador Web",
+    description: "Explora mi portafolio y descubre cómo puedo ayudar a digitalizar tu negocio con páginas web modernas y eficientes.",
+    url: "https://brayangomez.xyz",
+    type: "website",
+    images: [
+      {
+        url: "/portafolio-og.webp",
+        width: 1200,
+        height: 630,
+        alt: "Brayan Vargas - Desarrollador Web",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Brayan Vargas | Desarrollador Web",
+    description: "Desarrollador web especializado en la digitalización de negocios.",
+    images: [
+      {
+        url: "/portafolio-og.webp",
+        alt: "Brayan Vargas - Desarrollador Web",
+      },
+    ],
+  },
 };
 
 export default async function RootLayout({

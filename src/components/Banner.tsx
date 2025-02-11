@@ -15,7 +15,7 @@ import { useTranslations } from "next-intl";
 export const Banner = () => {
   const t = useTranslations("universo-web");
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black via-purple-950 to-black-custom-900 from-30% text-white flex flex-col items-center justify-center px-4 pt-8">
+    <div className="min-h-screen bg-gradient-to-b from-black-custom via-purple-950 to-black-custom-900 from-30% text-white flex flex-col items-center justify-center px-4 pt-8">
       <div className="flex flex-col items-center mt-10">
         <Image
           src="/logo.webp"

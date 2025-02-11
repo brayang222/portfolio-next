@@ -24,7 +24,7 @@ export const Footer = () => {
               >
                 v2.0.0
               </Link>
-              <h3 className="text-white-opacity">{t("update")} 10/12/2024</h3>
+              <h3 className="text-white-opacity">{t("update")} 11/02/2025</h3>
             </aside>
             <aside className="flex w-full md:w-[700px] flex-col lg:flex-row gap-4">
               <div className="flex flex-col min-w-60 *:border-b-[1px] *:w-fit *:border-dotted *:border-white *:border-opacity-30">

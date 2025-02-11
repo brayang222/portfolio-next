@@ -19,7 +19,7 @@ export const Navbar = () => {
       <section className="flex w-full justify-between ">
         <aside className="flex gap-8">
           <Link href="/" className="flex">
-            Brayan Vargas
+            Brayan Gómez
           </Link>
           <ButtonLang />
         </aside>

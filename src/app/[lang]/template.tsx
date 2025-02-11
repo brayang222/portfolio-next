@@ -19,14 +19,14 @@ export default function Template({ children }: { children: React.ReactNode }) {
   }, []);
 
   return (
-    <section className="flex text-center items-center justify-center">
+    <section className="flex text-center items-center justify-center bg-black-custom">
       <div
         id="curved-banner"
-        className="h-[calc(100vh+200px)] bg-black-custom fixed top-0 left-0 w-full rounded-b-[30%] z-20"
+        className="h-[calc(100vh+200px)] bg-black-custom fixed top-0 left-0 w-full rounded-b-[30%] z-30"
       >
         <h1
           id="banner-text"
-          className="text-white text-5xl font-extrabold z-30 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 uppercase tracking-widest"
+          className="text-white text-5xl font-extrabold z-30 absolute top-[45vh] left-1/2 transform -translate-x-1/2 uppercase tracking-widest"
         >
           {project ? t(project.name) : tPortfolio("title")}
         </h1>

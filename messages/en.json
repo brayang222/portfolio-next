@@ -5,13 +5,24 @@
   "navbar": {
     "rol": "Web Designer"
   },
+  "universo-web": {
+    "paragraph": "Hello! ✦ I'm a passionate digital creator, designing brands, websites, and apps that inspire and innovate.",
+    "building": "Currently shaping what I love at",
+    "contact": "Let's talk! 📩",
+    "whatsapp": "Message me on WhatsApp",
+    "instagram": "Explore my Instagram 📸",
+    "tiktok": "Find me on TikTok 🎵",
+    "facebook": "Join my page on Facebook 🔵",
+    "github": "Check out my code on GitHub 👨‍💻",
+    "linkedin": "Let's connect on LinkedIn 💼"
+  },
   "detail": {
     "web": "MAIN WEBSITE",
     "code": "CODE"
   },
   "about": {
     "about": "ABOUT ME",
-    "about-text": "Developer specialized in [Front End/Full Stack] with experience in creating efficient solutions using low-code technologies and custom programming.",
+    "about-text": "Developer specialized in Web Develop with experience in creating efficient solutions using low-code technologies and custom programming.",
     "team": "TEAM",
     "team-details": [
       {

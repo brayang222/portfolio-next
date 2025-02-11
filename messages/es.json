@@ -5,13 +5,24 @@
   "navbar": {
     "rol": "Diseñador web"
   },
+  "universo-web": {
+    "paragraph": "¡Hola! ✦ Soy un creador digital apasionado por diseñar marcas, sitios web y aplicaciones que inspiran e innovan.",
+    "building": "Actualmente dando forma a lo que amo en",
+    "contact": "¡Hablemos! 📩",
+    "whatsapp": "Escríbeme por WhatsApp",
+    "instagram": "Descubre mi Instagram 📸",
+    "tiktok": "Encuéntrame en TikTok 🎵",
+    "facebook": "Únete a mi página en Facebook 🔵",
+    "github": "Explora mi código en GitHub 👨‍💻",
+    "linkedin": "Conectemos en LinkedIn 💼"
+  },
   "detail": {
     "web": "SITIO WEB PRINCIPAL",
     "code": "CÓDIGO"
   },
   "about": {
     "about": "SOBRE MÍ",
-    "about-text": "Desarrollador especializado en [Front End/Full Stack] con experiencia en la creación de soluciones eficientes utilizando tecnologías de low-code y programación personalizada.",
+    "about-text": "Desarrollador especializado en Desarrollo Web con experiencia en la creación de soluciones eficientes utilizando tecnologías de low-code y programación personalizada.",
     "team": "EQUIPO",
     "team-details": [
       {

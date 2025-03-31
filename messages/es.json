@@ -59,7 +59,7 @@
     "task-flow": {
       "name": "Task Flow",
       "description": "Manejo de tareas",
-      "paragraph": "Task Flow es una herramienta diseñada para optimizar la gestión de tareas y proyectos, permitiendo a los usuarios organizar, priorizar y realizar un seguimiento eficiente de sus actividades. Con una interfaz intuitiva y funcionalidades como asignación de tareas, seguimiento de progreso y notificaciones personalizadas, esta plataforma es ideal tanto para equipos como para individuos. Task Flow busca simplificar el flujo de trabajo, mejorar la productividad y garantizar que los objetivos se cumplan de manera efectiva.",
+      "paragraph": "Task Flow es una herramienta diseñada para optimizar la gestión de tareas y proyectos, permitiendo a los usuarios organizar, priorizar y realizar un seguimiento eficiente de sus actividades. Con una interfaz intuitiva y funcionalidades como asignación de tareas, seguimiento de progreso y notificaciones personalizadas, esta plataforma es ideal tanto para equipos como para individuos. Task Flow busca simplificar el flujo de trabajo, mejorar la productividad y garantizar que los objetivos se cumplan de manera efectiva. (ingresa con las credenciales como administrador: email: 'Brayangomez521@gmail.com', clave: '1234')",
       "role": "Desarrollador",
       "duration": "2 semanas",
       "images": [

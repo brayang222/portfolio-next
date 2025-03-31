@@ -13,7 +13,6 @@ import {
 
 export const About = ({ isMobile }: { isMobile: boolean }) => {
   const t = useTranslations("about");
-  console.log(isMobile);
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return ABOUT.map((item) => (

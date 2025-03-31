@@ -10,7 +10,7 @@ import "../globals.css";
 
 import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
-import { NextUIProvider } from "@nextui-org/system";
+import { HeroUIProvider } from "@heroui/react";
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",
@@ -30,12 +30,20 @@ const silkscreen = Silkscreen({
 
 export const metadata: Metadata = {
   title: "Brayan Vargas | Desarrollador Web",
-  description: "Portafolio de Brayan Vargas, desarrollador web especializado en la digitalización de negocios mediante páginas web modernas y eficientes.",
-  keywords: ["desarrollador web", "páginas web", "digitalización de negocios", "desarrollo web", "Brayan Vargas"],
+  description:
+    "Portafolio de Brayan Vargas, desarrollador web especializado en la digitalización de negocios mediante páginas web modernas y eficientes.",
+  keywords: [
+    "desarrollador web",
+    "páginas web",
+    "digitalización de negocios",
+    "desarrollo web",
+    "Brayan Vargas",
+  ],
   authors: [{ name: "Brayan Vargas", url: "https://brayangomez.xyz" }],
   openGraph: {
     title: "Brayan Vargas | Desarrollador Web",
-    description: "Explora mi portafolio y descubre cómo puedo ayudar a digitalizar tu negocio con páginas web modernas y eficientes.",
+    description:
+      "Explora mi portafolio y descubre cómo puedo ayudar a digitalizar tu negocio con páginas web modernas y eficientes.",
     url: "https://brayangomez.xyz",
     type: "website",
     images: [
@@ -50,7 +58,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Brayan Vargas | Desarrollador Web",
-    description: "Desarrollador web especializado en la digitalización de negocios.",
+    description:
+      "Desarrollador web especializado en la digitalización de negocios.",
     images: [
       {
         url: "/portafolio-og.webp",
@@ -78,13 +87,13 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${silkscreen.variable} font-geistMono  antialiased h-full w-full`}
       >
         <Toaster richColors></Toaster>
-        <NextUIProvider>
+        <HeroUIProvider>
           <NextIntlClientProvider messages={messages}>
             <Navbar />
             {children}
             <Footer />
           </NextIntlClientProvider>
-        </NextUIProvider>
+        </HeroUIProvider>
       </body>
     </html>
   );

@@ -1,4 +1,6 @@
-export const ABOUT = [
+import { About } from "@/types/Projects";
+
+export const ABOUT: About[] = [
   {
     about: "about",
     aboutText: "about-text",

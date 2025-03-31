@@ -1,5 +1,4 @@
 "use client";
-import { Image } from "@nextui-org/image";
 import Link from "next/link";
 import {
   FaInstagram,
@@ -11,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { WhatsAppSvg } from "./common/WhatsAppSvg";
 import { useTranslations } from "next-intl";
+import { Image } from "@heroui/react";
 
 export const Banner = () => {
   const t = useTranslations("universo-web");

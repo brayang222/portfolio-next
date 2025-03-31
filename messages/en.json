@@ -56,6 +56,21 @@
         "Integrated WhatsApp"
       ]
     },
+    "task-flow": {
+      "name": "Task Flow",
+      "description": "Task management",
+      "paragraph": "Task Flow is a tool designed to optimize task and project management, allowing users to organize, prioritize, and efficiently track their activities. With an intuitive interface and features such as task assignment, progress tracking, and personalized notifications, this platform is ideal for both teams and individuals. Task Flow aims to simplify workflows, improve productivity, and ensure that goals are effectively achieved.",
+      "role": "Developer",
+      "duration": "2 weeks",
+      "images": [
+        "Landing 1/3",
+        "Landing 2/3",
+        "Landing 3/3",
+        "Task list and task actions",
+        "New task in modal",
+        "User list"
+      ]
+    },
     "blooma": {
       "name": "blooma",
       "description": "Design platform",

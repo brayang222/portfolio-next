@@ -1,9 +1,20 @@
 import { ABOUT } from "@/constants/about";
 import { useTranslations } from "next-intl";
-import React from "react";
+import { Experience } from "./Experience";
+import {
+  Button,
+  Modal,
+  ModalBody,
+  ModalContent,
+  ModalFooter,
+  ModalHeader,
+  useDisclosure,
+} from "@heroui/react";
 
-export const About = () => {
+export const About = ({ isMobile }: { isMobile: boolean }) => {
   const t = useTranslations("about");
+  console.log(isMobile);
+  const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return ABOUT.map((item) => (
     <section
@@ -15,28 +26,34 @@ export const About = () => {
         <p className="max-w-[50ch]">{t(item.aboutText)}</p>
       </aside>
       <aside className="flex flex-col mt-4 md:w-[700px]">
-        <div className="flex flex-col md:columns-2 gap-4">
-          <div className="flex columns-2 gap-4">
-            <h3 className="text-white-opacity text-xs min-w-60">
-              {t(item.team)}
-            </h3>
-            <h3 className="text-white-opacity text-xs">
-              {t(item.description)}
-            </h3>
-          </div>
-          {item.teamDetails.map((team, index) => (
-            <div className="flex columns-2 gap-4" key={team.id}>
-              <p className="w-full md:min-w-60">
-                {t(`team-details.${index}.${team.teamName}`)}
-                <br />
-                {t(`team-details.${index}.${team.teamTimeLine}`)}
-              </p>
-              <p className="">
-                {t(`team-details.${index}.${team.descriptionText}`)}
-              </p>
-            </div>
-          ))}
-        </div>
+        {!isMobile ? (
+          <Experience t={t} item={item} />
+        ) : (
+          <>
+            <Button className="border-2" onPress={onOpen}>
+              Ver experiencia
+            </Button>
+            <Modal isOpen={isOpen} placement="auto" onOpenChange={onOpenChange}>
+              <ModalContent>
+                {(onClose) => (
+                  <section className="bg-black-custom text-white">
+                    <ModalHeader className="flex flex-col gap-1">
+                      Experiencia
+                    </ModalHeader>
+                    <ModalBody>
+                      <Experience t={t} item={item} />
+                    </ModalBody>
+                    <ModalFooter>
+                      <Button color="danger" variant="light" onPress={onClose}>
+                        Cerrar
+                      </Button>
+                    </ModalFooter>
+                  </section>
+                )}
+              </ModalContent>
+            </Modal>
+          </>
+        )}
       </aside>
     </section>
   ));

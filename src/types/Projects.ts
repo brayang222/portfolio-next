@@ -17,3 +17,18 @@ export interface Image {
   img: string;
   text: string;
 }
+
+export interface About {
+  about: string;
+  aboutText: string;
+  team: string;
+  teamDetails: TeamDetail[];
+  description: string;
+}
+
+export interface TeamDetail {
+  id: number;
+  teamName: string;
+  teamTimeLine: string;
+  descriptionText: string;
+}

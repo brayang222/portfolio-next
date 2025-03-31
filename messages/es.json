@@ -56,6 +56,21 @@
         "WhatsApp integrado"
       ]
     },
+    "task-flow": {
+      "name": "Task Flow",
+      "description": "Manejo de tareas",
+      "paragraph": "Task Flow es una herramienta diseñada para optimizar la gestión de tareas y proyectos, permitiendo a los usuarios organizar, priorizar y realizar un seguimiento eficiente de sus actividades. Con una interfaz intuitiva y funcionalidades como asignación de tareas, seguimiento de progreso y notificaciones personalizadas, esta plataforma es ideal tanto para equipos como para individuos. Task Flow busca simplificar el flujo de trabajo, mejorar la productividad y garantizar que los objetivos se cumplan de manera efectiva.",
+      "role": "Desarrollador",
+      "duration": "2 semanas",
+      "images": [
+        "Página inicial 1/3",
+        "Página inicial 2/3",
+        "Página inicial 3/3",
+        "Lista de tareas, y acciones de las tareas",
+        "Nueva tarea en modal",
+        "Lista de usuarios"
+      ]
+    },
     "blooma": {
       "name": "blooma",
       "description": "Plataforma de diseño",

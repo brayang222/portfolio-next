@@ -9,11 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nextui-org/image": "^2.2.3",
-    "@nextui-org/system": "^2.4.4",
-    "@nextui-org/theme": "^2.4.3",
+    "@heroui/react": "^2.7.5",
+    "framer-motion": "^12.6.2",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.13.5",
     "gsap": "^3.12.5",
     "next": "15.0.3",
     "next-intl": "^3.25.3",

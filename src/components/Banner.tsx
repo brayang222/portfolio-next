@@ -35,7 +35,7 @@ export const Banner = () => {
       </p>
       <div className="flex space-x-6 mt-6 text-2xl">
         <Link
-          href="https://wa.me/3126177800#"
+          href="https://wa.me/3001503840#"
           className="hover:text-purple-500"
           target="_blank"
           rel="noopener noreferrer"
@@ -87,7 +87,7 @@ export const Banner = () => {
       <div className="my-8 w-full max-w-md ">
         <h3 className="text-gray-500 text-sm uppercase">{t("contact")}</h3>
         <Link
-          href="https://wa.me/3126177800"
+          href="https://wa.me/3001503840"
           className="flex flex-col items-center justify-between bg-slate-800 hover:bg-gray-600 transition px-5 py-3 rounded-xl mt-3"
           target="_blank"
           rel="noopener noreferrer"

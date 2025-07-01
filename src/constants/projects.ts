@@ -94,7 +94,23 @@ export const PROJECTS: Project[] = [
       { img: "/assets/blooma/credits-pricing.webp", text: "blooma.images" },
     ],
   },
-
+  {
+    imagePath: "/assets/chatea/chat.webp",
+    path: "chatea",
+    name: "chatea.name",
+    description: "chatea.description",
+    paragraph: "chatea.paragraph",
+    role: "chatea.role",
+    collaborators: ["Brayan Gómez"],
+    duration: "chatea.duration",
+    tools: ["TypeScript", "Tailwind", "React", "Node JS", "WebSockets"],
+    website: "https://chatea-realtime.vercel.app/",
+    code: "https://github.com/brayang222/chat-client",
+    images: [
+      { img: "/assets/chatea/login.webp", text: "chatea.images" },
+      { img: "/assets/chatea/chat.webp", text: "chatea.images" },
+    ],
+  },
   {
     imagePath: "/assets/proveo/productos.webp",
     path: "proveo",
@@ -135,7 +151,6 @@ export const PROJECTS: Project[] = [
       { img: "/assets/rh/platillos.webp", text: "hojarasca.images" },
     ],
   },
-
   {
     imagePath: "/assets/nasa.webp",
     path: "nasa-date",
@@ -150,29 +165,29 @@ export const PROJECTS: Project[] = [
     code: "https://github.com/brayang222/astronomy-picture",
     images: [{ img: "/assets/nasa.webp", text: "nasa.images" }],
   },
-  {
-    imagePath: "/assets/plain-portfolio/header-portfolio.webp",
-    path: "portfolio",
-    name: "portfolio.name",
-    description: "portfolio.description",
-    paragraph: "portfolio.paragraph",
-    role: "portfolio.role",
-    collaborators: ["Brayan Gómez"],
-    duration: "portfolio.duration",
-    tools: ["HTML", "CSS", "JavaScript"],
-    website: "https://portfoliobra.netlify.app/",
-    code: "https://portfoliobra.netlify.app/",
-    images: [
-      {
-        img: "/assets/plain-portfolio/header-portfolio.webp",
-        text: "portfolio.images",
-      },
-      {
-        img: "/assets/plain-portfolio/projects.webp",
-        text: "portfolio.images",
-      },
-    ],
-  },
+  // {
+  //   imagePath: "/assets/plain-portfolio/header-portfolio.webp",
+  //   path: "portfolio",
+  //   name: "portfolio.name",
+  //   description: "portfolio.description",
+  //   paragraph: "portfolio.paragraph",
+  //   role: "portfolio.role",
+  //   collaborators: ["Brayan Gómez"],
+  //   duration: "portfolio.duration",
+  //   tools: ["HTML", "CSS", "JavaScript"],
+  //   website: "https://portfoliobra.netlify.app/",
+  //   code: "https://portfoliobra.netlify.app/",
+  //   images: [
+  //     {
+  //       img: "/assets/plain-portfolio/header-portfolio.webp",
+  //       text: "portfolio.images",
+  //     },
+  //     {
+  //       img: "/assets/plain-portfolio/projects.webp",
+  //       text: "portfolio.images",
+  //     },
+  //   ],
+  // },
   // {
   //   imagePath: "/assets/triki.webp",
   //   path: "triki",

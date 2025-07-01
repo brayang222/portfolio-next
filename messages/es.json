@@ -101,6 +101,17 @@
         "Filtrado por título"
       ]
     },
+    "chatea": {
+      "name": "CHATEA",
+      "description": "Plataforma interactiva para conectar y conversar en tiempo real",
+      "paragraph": "Chatea es una plataforma moderna que permite a los usuarios comunicarse instantáneamente con personas de todo el mundo. Desarrollada con WebSockets, Node.js y React, ofrece una experiencia de chat fluida, segura y dinámica. Incluye salas públicas y privadas, notificaciones en tiempo real y una interfaz intuitiva que facilita la interacción entre usuarios, fomentando nuevas conexiones y conversaciones significativas.",
+      "role": "Desarrollador",
+      "duration": "3 días",
+      "images": [
+        "Login de la app, puedes utilizar cualquier usuario",
+        "Interfaz del chat, puedes enviar mensajes y ver los mensajes de otros usuarios, asi como la hora de envío"
+      ]
+    },
     "proveo": {
       "name": "proveo",
       "description": "Plataforma de dropship",

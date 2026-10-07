@@ -12,20 +12,14 @@ import { Project } from "@/types/Projects";
 const ProjectGrid = ({
   projects,
   isMobile,
-  columns = 3,
 }: {
   projects: Project[];
   isMobile: boolean;
-  columns?: 2 | 3;
 }) => {
   const t = useTranslations("projects");
 
   return (
-    <section
-      className={`w-full py-5 px-24 pb-10 gap-8 ${
-        columns === 2 ? "lg:columns-2" : "lg:columns-2 xl:columns-3"
-      }`}
-    >
+    <section className="w-full py-5 px-24 pb-10 gap-8 lg:columns-2 xl:columns-3">
       {projects.map((project) => (
         <figure
           className="flex flex-col font-geistSans text-sm h-full mb-8 gap-0.5 break-inside-avoid"
@@ -72,19 +66,12 @@ export const Body = () => {
     ...PROJECTS.filter((p) => p.category === "practice"),
   ];
 
-  // Rendered in its own grid so these always appear above the rest,
-  // regardless of how CSS columns balances card heights.
-  const featuredCount = 4;
-  const featuredProjects = orderedProjects.slice(0, featuredCount);
-  const restProjects = orderedProjects.slice(featuredCount);
-
   return (
     <main className="flex flex-col w-full h-full bg-black-custom z-10">
       <Banner />
       <Services />
       <About isMobile={isMobile} />
-      <ProjectGrid projects={featuredProjects} isMobile={isMobile} columns={2} />
-      <ProjectGrid projects={restProjects} isMobile={isMobile} />
+      <ProjectGrid projects={orderedProjects} isMobile={isMobile} />
     </main>
   );
 };

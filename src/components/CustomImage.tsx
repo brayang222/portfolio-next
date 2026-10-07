@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 interface Props {
   src: string;
@@ -8,13 +7,14 @@ interface Props {
 
 export const CustomImage = ({ src, alt }: Props) => {
   return (
-    <Image
-      src={src}
-      alt={alt}
-      layout="responsive"
-      width={90}
-      height={50}
-      className="object-contain max-h-screen"
-    />
+    <div className="relative w-full aspect-[90/50] max-h-screen">
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        sizes="(min-width: 768px) 80vw, 100vw"
+        className="object-contain"
+      />
+    </div>
   );
 };

@@ -1,6 +1,15 @@
 @import "tailwindcss";
 @config "../../tailwind.config.ts";
 
+html,
+body {
+  background-color: rgb(17, 17, 17);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
 h1::selection,
 h2::selection,
 h3::selection,

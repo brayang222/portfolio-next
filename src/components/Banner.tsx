@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 import { WhatsAppSvg } from "./common/WhatsAppSvg";
 import { useTranslations } from "next-intl";
-import { Image } from "@heroui/react";
+import Image from "next/image";
 import { buildWhatsAppLink } from "@/constants/contact";
 
 export const Banner = () => {
@@ -24,10 +24,11 @@ export const Banner = () => {
           <div className="flex flex-col items-center lg:items-start">
             <Image
               src="/logo.webp"
-              alt="ZeenTro Logo"
+              alt="Brayan Gómez Logo"
               className="md:w-24 md:h-24 w-16 h-16"
-              width={0}
-              height={0}
+              width={512}
+              height={512}
+              priority
             />
             <h1 className="md:text-4xl text-xl font-bold mt-2">Brayan Gómez</h1>
             <p className="text-purple-400 text-xs md:text-sm mt-1 uppercase tracking-wider">

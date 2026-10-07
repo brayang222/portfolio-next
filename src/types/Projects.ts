@@ -11,6 +11,7 @@ export interface Project {
   website: string;
   code: string;
   images: Image[];
+  category: "business" | "practice";
 }
 
 export interface Image {

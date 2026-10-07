@@ -6,7 +6,15 @@
     "rol": "Web Designer"
   },
   "universo-web": {
-    "paragraph": "Hello! ✦ I'm a passionate digital creator, designing brands, websites, and apps that inspire and innovate.",
+    "role": "Freelance Web Developer",
+    "headline": "Websites that turn visitors into customers",
+    "paragraph": "I design and build modern websites and web apps for businesses that want to look professional, load fast, and sell more online.",
+    "ctaPrimary": "Get a free quote",
+    "ctaNote": "No commitment · I reply within 24 hours",
+    "whatsappMessage": "Hi Brayan! I saw your portfolio and I'd like a quote for a web project 🚀",
+    "statsExperience": "+3 years of experience",
+    "statsProjects": "20+ businesses served",
+    "statsResponse": "Reply within 24h",
     "building": "Currently shaping what I love at",
     "contact": "Let's talk! 📩",
     "whatsapp": "Message me on WhatsApp",
@@ -15,6 +23,39 @@
     "facebook": "Join my page on Facebook 🔵",
     "github": "Check out my code on GitHub 👨‍💻",
     "linkedin": "Let's connect on LinkedIn 💼"
+  },
+  "services": {
+    "title": "What can I build for your business?",
+    "subtitle": "From a landing page that showcases your brand to a full custom platform for your operation.",
+    "cta": "Tell me your idea",
+    "items": [
+      {
+        "title": "Websites & landing pages",
+        "description": "Fast, responsive sites that showcase your brand and turn visitors into customers, ready in days, not months."
+      },
+      {
+        "title": "Online stores",
+        "description": "E-commerce with cart, filters, and integrated payment gateways so you can start selling online."
+      },
+      {
+        "title": "Custom platforms & dashboards",
+        "description": "Management systems, dashboards, and portals to organize your business and your team."
+      },
+      {
+        "title": "Mobile apps",
+        "description": "iOS and Android apps that put your business in your customers' pockets."
+      }
+    ]
+  },
+  "process": {
+    "title": "How we work",
+    "steps": [
+      "Tell me your idea",
+      "Proposal & quote",
+      "Design & development",
+      "Review & adjustments",
+      "Launch & support"
+    ]
   },
   "detail": {
     "web": "MAIN WEBSITE",
@@ -26,8 +67,13 @@
     "team": "TEAM",
     "team-details": [
       {
+        "team-name": "Make Systems",
+        "team-time-line": "10.2025 - Present",
+        "description-text": "Full-stack development focused on solutions for the real estate sector, building management platforms with Laravel. I also develop mobile apps and AI servers, working with Next.js and Nest.js depending on each project's needs."
+      },
+      {
         "team-name": "Norvik",
-        "team-time-line": "03.2024 - Present",
+        "team-time-line": "03.2024 - 10.2025",
         "description-text": "I have developed and designed various modules and sections for platforms created by the company, working with Next.js, TypeScript, Tailwind, and FlutterFlow to meet the standards of these tools."
       },
       {
@@ -40,9 +86,70 @@
   },
   "footer": {
     "update": "Last updated",
-    "build": "Let's build something together"
+    "build": "Let's build something together",
+    "ctaButton": "Message me on WhatsApp"
   },
   "projects": {
+    "finance": {
+      "name": "Finance",
+      "description": "Personal finance app to keep your net worth under control in real time",
+      "paragraph": "Finance is a personal finance app built for the Colombian market, where you can log income, expenses, and investments in seconds. Connect your bank accounts, cards, and digital wallets, set savings goals, and track your net worth with clear charts. It includes stock and crypto investment modules, high-yield savings accounts, category budgets, a built-in financial calculator, and a tax summary that flags when you cross the income-tax filing threshold. Available on web, iOS, Android, and Telegram.",
+      "role": "Developer",
+      "duration": "3 weeks",
+      "images": [
+        "Landing page: your net worth, under control",
+        "Mobile app preview: plans, profile, home, transactions and investments",
+        "Net worth overview: accounts, savings goals and evolution over time",
+        "Transaction history with filters by date and category",
+        "Stock investment portfolio with real-time returns",
+        "Budget analysis and spending breakdown by category",
+        "High-yield savings account with interest rate and balance growth",
+        "Built-in financial calculator for quick math",
+        "Tax summary: yearly deposits and income-tax filing alert"
+      ]
+    },
+    "estella": {
+      "name": "ESTELLA",
+      "description": "Online store for handmade mirror-finish accessories",
+      "paragraph": "Estella is an online jewelry and accessories store, handmade in Colombia. The site features the full collection filterable by category (bracelets, necklaces, rings, and earrings), product pages with measurements and materials, an editorial lookbook with seasonal photography, and a personalized WhatsApp advisory flow to answer questions before buying. Built for a warm, feminine shopping experience, with insured nationwide shipping and gift wrapping included.",
+      "role": "Developer",
+      "duration": "2 weeks",
+      "images": [
+        "Campaign cover: the Isla collection, 2026 series",
+        "Selección Estella: catalog filterable by bracelets, necklaces, rings and earrings",
+        "Product page for the Margarita Necklace, with description and measurements",
+        "Seasonal lookbook shot in morning light",
+        "Footer with WhatsApp advisory and new-arrivals signup"
+      ]
+    },
+    "impetu": {
+      "name": "ÍMPETU",
+      "description": "E-commerce landing page for a men's grooming brand",
+      "paragraph": "Ímpetu is the launch site for a men's personal care brand, built around its first product: beard-refreshing wipes. The landing page pairs punchy, character-driven copy with a three-step how-it-works section, product benefits, a catalog of upcoming launches, and checkout. Designed with a dark, violet visual identity meant to feel energetic and stand out in the grooming market.",
+      "role": "Developer",
+      "duration": "2 weeks",
+      "images": [
+        "Hero: stop smelling like your lunch",
+        "Product catalog: on sale now and coming soon",
+        "How-it-works section: three steps, ten seconds",
+        "Product page for the beard-refreshing wipes, with pricing and benefits",
+        "Brand section: the new standard in men's grooming",
+        "Footer with catalog, company links and launch sign-up"
+      ]
+    },
+    "daniela-photo": {
+      "name": "Daniela Zuluaga — Photography",
+      "description": "Portfolio site for a visual photographer specialized in product and food photography",
+      "paragraph": "Portfolio website for Daniela Zuluaga, a visual photographer based in Medellín. It presents her story and specialties (product, commercial, and food photography), a selected-works gallery laid out as a timeline, and a detail page for each series with role, tools used, and image gallery. It includes direct WhatsApp and Instagram contact to book new shoots.",
+      "role": "Developer",
+      "duration": "1 week",
+      "images": [
+        "Portfolio hero, located in Medellín",
+        "Timeline of selected projects: Esencia, Pelitos Felices, María Luisa and Estella",
+        "María Luisa project detail: food production, role and tools",
+        "About section, with Daniela's story and specialties"
+      ]
+    },
     "estilo-elite": {
       "name": "ESTILO ÉLITE",
       "description": "Watches Sale",
@@ -131,7 +238,11 @@
       "paragraph": "A website designed for a Colombian restaurant, featuring a user-friendly interface for customers to view the menu, order food online, and find restaurant details. It also includes an admin panel for managing orders and updating the menu. The platform enhances the dining experience with vibrant visuals and an easy navigation system, bringing Colombian flavors closer to customers.",
       "role": "Developer",
       "duration": "6 months",
-      "images": ["Page header", "Content", "Dishes and cart"]
+      "images": [
+        "Page header",
+        "Content",
+        "Dishes and cart"
+      ]
     },
     "nasa": {
       "name": "NASA date",
@@ -147,7 +258,10 @@
       "paragraph": "A simple, functional portfolio built using only HTML, CSS, and JavaScript, featuring a clean and easy-to-navigate design. It is fully responsive, adapting to all devices. The portfolio includes a project section with images and descriptions, and a contact form. Smooth transitions between sections are achieved with JavaScript, providing a fluid and user-friendly experience. Ideal for showcasing basic web development skills without complexity.",
       "role": "Developer",
       "duration": "15 days",
-      "images": ["Header", "Projects"]
+      "images": [
+        "Header",
+        "Projects"
+      ]
     },
     "todo": {
       "name": "Todo app",

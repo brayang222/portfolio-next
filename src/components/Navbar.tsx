@@ -15,7 +15,7 @@ export const Navbar = () => {
   const isBaseUrl = pathname.split("/")[2];
 
   return (
-    <nav className="fixed flex items-center top-0 w-full bg-black-custom/50 text-white border-white border-opacity-10 border-b-[1px] z-20 backdrop-blur-sm px-12 py-4">
+    <nav className="fixed flex items-center top-0 w-full bg-black-custom/50 text-white border-white/10 border-b-[1px] z-20 backdrop-blur-sm px-12 py-4">
       <section className="flex w-full justify-between ">
         <aside className="flex gap-8">
           <Link href="/" className="flex">

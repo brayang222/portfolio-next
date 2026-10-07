@@ -10,6 +10,7 @@ import "../globals.css";
 
 import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
+import { FloatingWhatsApp } from "@/components/common/FloatingWhatsApp";
 import { HeroUIProvider } from "@heroui/react";
 
 const geistSans = localFont({
@@ -29,21 +30,24 @@ const silkscreen = Silkscreen({
 });
 
 export const metadata: Metadata = {
-  title: "Brayan Vargas | Desarrollador Web",
+  title: "Brayan Gómez | Desarrollo Web para Negocios",
   description:
-    "Portafolio de Brayan Vargas, desarrollador web especializado en la digitalización de negocios mediante páginas web modernas y eficientes.",
+    "Desarrollador web freelance. Diseño y construyo páginas web, tiendas online y plataformas a medida que ayudan a tu negocio a vender más en internet. Cotización gratuita por WhatsApp.",
   keywords: [
     "desarrollador web",
-    "páginas web",
+    "desarrollador web freelance",
+    "páginas web para negocios",
+    "tienda online",
+    "landing page",
     "digitalización de negocios",
     "desarrollo web",
-    "Brayan Vargas",
+    "Brayan Gómez",
   ],
-  authors: [{ name: "Brayan Vargas", url: "https://brayangomez.xyz" }],
+  authors: [{ name: "Brayan Gómez", url: "https://brayangomez.xyz" }],
   openGraph: {
-    title: "Brayan Vargas | Desarrollador Web",
+    title: "Brayan Gómez | Desarrollo Web para Negocios",
     description:
-      "Explora mi portafolio y descubre cómo puedo ayudar a digitalizar tu negocio con páginas web modernas y eficientes.",
+      "Explora proyectos reales y descubre cómo una página web profesional puede ayudar a tu negocio a vender más. Cotización gratuita por WhatsApp.",
     url: "https://brayangomez.xyz",
     type: "website",
     images: [
@@ -51,19 +55,19 @@ export const metadata: Metadata = {
         url: "/portafolio-og.webp",
         width: 1200,
         height: 630,
-        alt: "Brayan Vargas - Desarrollador Web",
+        alt: "Brayan Gómez - Desarrollo Web para Negocios",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Brayan Vargas | Desarrollador Web",
+    title: "Brayan Gómez | Desarrollo Web para Negocios",
     description:
-      "Desarrollador web especializado en la digitalización de negocios.",
+      "Desarrollador web freelance especializado en páginas web y plataformas que ayudan a tu negocio a vender más.",
     images: [
       {
         url: "/portafolio-og.webp",
-        alt: "Brayan Vargas - Desarrollador Web",
+        alt: "Brayan Gómez - Desarrollo Web para Negocios",
       },
     ],
   },
@@ -74,7 +78,7 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }>) {
   const { lang } = await params;
   if (!routing.locales.includes(lang as any)) {
@@ -92,6 +96,7 @@ export default async function RootLayout({
             <Navbar />
             {children}
             <Footer />
+            <FloatingWhatsApp />
           </NextIntlClientProvider>
         </HeroUIProvider>
       </body>

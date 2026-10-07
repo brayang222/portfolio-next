@@ -18,6 +18,12 @@ export const ABOUT: About[] = [
         teamTimeLine: "team-time-line",
         descriptionText: "description-text",
       },
+      {
+        id: 3,
+        teamName: "team-name",
+        teamTimeLine: "team-time-line",
+        descriptionText: "description-text",
+      },
     ],
     description: "description",
   },

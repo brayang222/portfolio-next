@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { FaWhatsapp } from "react-icons/fa";
 import { GridPattern } from "./common/GridPattern";
+import { buildWhatsAppLink } from "@/constants/contact";
 
 export const Footer = () => {
   const t = useTranslations("footer");
+  const tUniverso = useTranslations("universo-web");
 
   return (
     <footer
@@ -27,7 +30,7 @@ export const Footer = () => {
               <h3 className="text-white-opacity">{t("update")} 11/02/2025</h3>
             </aside>
             <aside className="flex w-full md:w-[700px] flex-col lg:flex-row gap-4">
-              <div className="flex flex-col min-w-60 *:border-b-[1px] *:w-fit *:border-dotted *:border-white *:border-opacity-30">
+              <div className="flex flex-col min-w-60 *:border-b-[1px] *:w-fit *:border-dotted *:border-white/30">
                 <Link
                   href="https://www.linkedin.com/in/brayangmz"
                   target="_blank"
@@ -45,10 +48,18 @@ export const Footer = () => {
                 <p className="text-nowrap">{t("build")}</p>
                 <Link
                   href="mailto:brayangomez521@gmail.com"
-                  className="border-b-[1px] w-fit border-dotted border-white border-opacity-30"
+                  className="border-b-[1px] w-fit border-dotted border-white/30"
                   target="_blank"
                 >
                   brayangomez521@gmail.com
+                </Link>
+                <Link
+                  href={buildWhatsAppLink(tUniverso("whatsappMessage"))}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 w-fit bg-purple-600 hover:bg-purple-500 transition px-4 py-2 rounded-full text-sm font-semibold"
+                >
+                  <FaWhatsapp /> {t("ctaButton")}
                 </Link>
               </div>
             </aside>

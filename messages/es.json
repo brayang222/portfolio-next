@@ -6,7 +6,15 @@
     "rol": "Diseñador web"
   },
   "universo-web": {
-    "paragraph": "¡Hola! ✦ Soy un creador digital apasionado por diseñar marcas, sitios web y aplicaciones que inspiran e innovan.",
+    "role": "Desarrollador Web Freelance",
+    "headline": "Páginas web que convierten visitas en clientes",
+    "paragraph": "Diseño y desarrollo sitios y aplicaciones web modernas para negocios que quieren verse profesionales, cargar rápido y vender más en internet.",
+    "ctaPrimary": "Cotiza tu proyecto gratis",
+    "ctaNote": "Sin compromiso · Te respondo en menos de 24 horas",
+    "whatsappMessage": "¡Hola Brayan! Vi tu portafolio y quiero cotizar un proyecto web 🚀",
+    "statsExperience": "+3 años de experiencia",
+    "statsProjects": "+20 negocios atendidos",
+    "statsResponse": "Respuesta en -24h",
     "building": "Actualmente dando forma a lo que amo en",
     "contact": "¡Hablemos! 📩",
     "whatsapp": "Escríbeme por WhatsApp",
@@ -15,6 +23,39 @@
     "facebook": "Únete a mi página en Facebook 🔵",
     "github": "Explora mi código en GitHub 👨‍💻",
     "linkedin": "Conectemos en LinkedIn 💼"
+  },
+  "services": {
+    "title": "¿Qué puedo construir para tu negocio?",
+    "subtitle": "Desde una landing page que presente tu marca hasta una plataforma completa a la medida de tu operación.",
+    "cta": "Cuéntame tu idea",
+    "items": [
+      {
+        "title": "Páginas web y landings",
+        "description": "Sitios rápidos y responsivos que presentan tu marca y convierten visitantes en clientes, listos en días, no meses."
+      },
+      {
+        "title": "Tiendas online",
+        "description": "E-commerce con carrito, filtros y pasarelas de pago integradas para que empieces a vender en internet."
+      },
+      {
+        "title": "Plataformas y paneles a la medida",
+        "description": "Sistemas de gestión, dashboards y portales para organizar tu operación y la de tu equipo."
+      },
+      {
+        "title": "Apps móviles",
+        "description": "Aplicaciones para iOS y Android que llevan tu negocio al bolsillo de tus clientes."
+      }
+    ]
+  },
+  "process": {
+    "title": "Así trabajamos",
+    "steps": [
+      "Cuéntame tu idea",
+      "Propuesta y cotización",
+      "Diseño y desarrollo",
+      "Ajustes y revisión",
+      "Entrega y soporte"
+    ]
   },
   "detail": {
     "web": "SITIO WEB PRINCIPAL",
@@ -26,8 +67,13 @@
     "team": "EQUIPO",
     "team-details": [
       {
+        "team-name": "Make Systems",
+        "team-time-line": "10.2025 - Presente",
+        "description-text": "Desarrollo full stack enfocado en soluciones para el sector inmobiliario, construyendo plataformas de gestión con Laravel. También desarrollo aplicaciones móviles y servidores de IA, trabajando con Next JS y Nest JS según las necesidades de cada proyecto."
+      },
+      {
         "team-name": "Norvik",
-        "team-time-line": "03.2024 - Presente",
+        "team-time-line": "03.2024 - 10.2025",
         "description-text": "He desarrollado y diseñado diversos módulos y secciones para plataformas que la empresa ha creado, he trabajado con Next JS, TypeScript, Tailwind, FlutterFlow para alcanzar los estandares de estas herramientas"
       },
       {
@@ -40,9 +86,70 @@
   },
   "footer": {
     "update": "Última actualización",
-    "build": "Vamos a constuir algo juntos"
+    "build": "Vamos a constuir algo juntos",
+    "ctaButton": "Escríbeme por WhatsApp"
   },
   "projects": {
+    "finance": {
+      "name": "Finance",
+      "description": "App de finanzas personales para controlar tu patrimonio en tiempo real",
+      "paragraph": "Finance es una aplicación de finanzas personales pensada para el mercado colombiano, donde puedes registrar ingresos, gastos e inversiones en segundos. Conecta tus cuentas bancarias, tarjetas y billeteras digitales, define metas de ahorro y visualiza la evolución de tu patrimonio con gráficas claras. Incluye módulos de inversión en bolsa y cripto, cuentas de alto rendimiento, presupuestos por categoría, calculadora financiera integrada y un resumen tributario que te avisa si superas el tope de declaración de renta. Disponible en web, iOS, Android y Telegram.",
+      "role": "Desarrollador",
+      "duration": "3 semanas",
+      "images": [
+        "Landing: tu patrimonio, bajo control",
+        "Vista previa de la app en móvil: planes, perfil, inicio, movimientos e inversión",
+        "Resumen del patrimonio: cuentas, metas de ahorro y evolución en el tiempo",
+        "Historial de transacciones con filtros por fecha y categoría",
+        "Portafolio de inversiones en bolsa, con rendimiento en tiempo real",
+        "Análisis de presupuesto y distribución de gastos por categoría",
+        "Cuenta de alto rendimiento con tasa de interés y evolución del saldo",
+        "Calculadora financiera integrada para cálculos rápidos",
+        "Resumen tributario: consignaciones del año y alerta de declaración de renta"
+      ]
+    },
+    "estella": {
+      "name": "ESTELLA",
+      "description": "Tienda online de accesorios artesanales con acabado espejo",
+      "paragraph": "Estella es una tienda en línea de joyería y accesorios hechos a mano en Colombia. El sitio presenta la colección completa filtrable por categoría (pulseras, collares, anillos y aretes), fichas de producto con medidas y materiales, un lookbook editorial con fotografía de temporada y un flujo de asesoría personalizada por WhatsApp para resolver dudas antes de comprar. Pensado para una experiencia de compra cálida y femenina, con envío asegurado a todo el país y empaque de regalo incluido.",
+      "role": "Desarrollador",
+      "duration": "2 semanas",
+      "images": [
+        "Portada de la campaña: la colección Isla, serie 2026",
+        "Selección Estella: catálogo filtrable por pulseras, collares, anillos y aretes",
+        "Ficha de producto del Collar Margarita, con descripción y medidas",
+        "Lookbook de temporada con fotografía de luz de mañana",
+        "Pie de página con asesoría por WhatsApp y aviso de nuevas piezas"
+      ]
+    },
+    "impetu": {
+      "name": "ÍMPETU",
+      "description": "Landing e-commerce para una marca de cuidado personal masculino",
+      "paragraph": "Ímpetu es el sitio de lanzamiento de una marca de cuidado personal para hombres, con su primer producto: toallitas refresca-barba. El landing combina un copy directo y con carácter, una sección de cómo se usa en tres pasos, beneficios del producto, catálogo de próximos lanzamientos y checkout de compra. Diseñado con una identidad visual oscura y violeta, pensada para transmitir energía y diferenciarse en el mercado del grooming.",
+      "role": "Desarrollador",
+      "duration": "2 semanas",
+      "images": [
+        "Hero: deja de oler a tu almuerzo",
+        "Catálogo de productos: a la venta y próximos lanzamientos",
+        "Sección cómo se usa, en tres pasos y diez segundos",
+        "Ficha de producto de las Toallitas Refresca-Barba con precio y beneficios",
+        "Sección de marca: el nuevo estándar en cuidado masculino",
+        "Pie de página con catálogo, enlaces de la compañía y registro al lanzamiento"
+      ]
+    },
+    "daniela-photo": {
+      "name": "Daniela Zuluaga — Fotografía",
+      "description": "Portafolio web para una fotógrafa visual especializada en producto y gastronomía",
+      "paragraph": "Sitio portafolio para Daniela Zuluaga, fotógrafa visual radicada en Medellín. Presenta su historia y especialidades (fotografía de producto, comercial y gastronómica), una galería de proyectos seleccionados organizada como línea de tiempo y el detalle de cada serie con su rol, herramientas utilizadas y galería de imágenes. Incluye contacto directo por WhatsApp e Instagram para agendar nuevas producciones.",
+      "role": "Desarrollador",
+      "duration": "1 semana",
+      "images": [
+        "Hero del portafolio, con ubicación en Medellín",
+        "Línea de tiempo de proyectos seleccionados: Esencia, Pelitos Felices, María Luisa y Estella",
+        "Detalle del proyecto María Luisa: producción gastronómica, rol y herramientas",
+        "Sección sobre mí, con la historia y especialidades de Daniela"
+      ]
+    },
     "estilo-elite": {
       "name": "ESTILO ÉLITE",
       "description": "Venta de relojes",
@@ -131,7 +238,11 @@
       "paragraph": "Este restaurante es una ventana al corazón de Colombia. Con un ambiente acogedor y auténtico, ofrece una experiencia gastronómica única que celebra la rica diversidad de sabores colombianos. Desde arepas y empanadas hasta bandeja paisa y sancocho, cada plato es una explosión de tradición y pasión. Más allá de su deliciosa comida, el restaurante cuenta con una plataforma digital donde los usuarios pueden explorar el menú, realizar pedidos a domicilio y gestionar reservaciones. También ofrece una sección especial para administradores donde pueden manejar inventarios, registrar órdenes y optimizar el servicio al cliente. Este restaurante no solo alimenta el cuerpo, sino también el alma, conectando a sus visitantes con las raíces y la cultura de Colombia en cada bocado.",
       "role": "Desarrollador",
       "duration": "6 meses",
-      "images": ["Encabezado de la página", "Contenido", "Platillos y carrito"]
+      "images": [
+        "Encabezado de la página",
+        "Contenido",
+        "Platillos y carrito"
+      ]
     },
     "nasa": {
       "name": "NASA calendario",
@@ -147,7 +258,10 @@
       "paragraph": "Este portafolio sencillo y funcional está construido con solo HTML, CSS y JavaScript, destacando una presentación limpia y fácil de navegar. Es completamente responsive, adaptándose a todos los dispositivos. Incluye una sección de proyectos con imágenes y descripciones, y un formulario de contacto. A través de JavaScript, las transiciones entre secciones son suaves, ofreciendo una experiencia de usuario fluida y eficiente. Ideal para mostrar habilidades básicas de desarrollo web sin complejidades.",
       "role": "Desarrollador",
       "duration": "15 dias",
-      "images": ["Encabezado", "Proyectos"]
+      "images": [
+        "Encabezado",
+        "Proyectos"
+      ]
     },
     "todo": {
       "name": "Tareas app",
